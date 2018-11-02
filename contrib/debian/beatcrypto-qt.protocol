@@ -1,0 +1,11 @@
+[Protocol]
+exec=beatcrypto-qt '%u'
+protocol=beatcrypto
+input=none
+output=none
+helper=true
+listing=
+reading=false
+writing=false
+makedir=false
+deleting=false

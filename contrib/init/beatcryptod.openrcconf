@@ -1,0 +1,26 @@
+# /etc/conf.d/beatcryptod: config file for /etc/init.d/beatcryptod
+
+# Config file location
+#BITCOIND_CONFIGFILE="/etc/beatcrypto/beatcrypto.conf"
+
+# What directory to write pidfile to?  (created and owned by $BITCOIND_USER)
+#BITCOIND_PIDDIR="/var/run/beatcryptod"
+
+# What filename to give the pidfile
+#BITCOIND_PIDFILE="${BITCOIND_PIDDIR}/beatcryptod.pid"
+
+# Where to write beatcryptod data (be mindful that the blockchain is large)
+#BITCOIND_DATADIR="/var/lib/beatcryptod"
+
+# User and group to own beatcryptod process
+#BITCOIND_USER="beatcrypto"
+#BITCOIND_GROUP="beatcrypto"
+
+# Path to beatcryptod executable
+#BITCOIND_BIN="/usr/bin/beatcryptod"
+
+# Nice value to run beatcryptod under
+#BITCOIND_NICE=0
+
+# Additional options (avoid -conf and -datadir, use flags above)
+BITCOIND_OPTS=""
